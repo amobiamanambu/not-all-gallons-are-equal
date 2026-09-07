@@ -21,6 +21,8 @@ This repository package reproduces the numerical analyses and manuscript tables 
 
 ## Reproduce the analysis
 
+Python 3.10 or newer is required. The verified dependency versions are listed in `requirements.txt`.
+
 ```bash
 python -m venv .venv
 source .venv/bin/activate

@@ -1,0 +1,125 @@
+qa_level,check,status,detail
+1,input exists: data/input/aws_region_pue_wue_2022_2025.csv,PASS,Required package input is present.
+1,input hash: data/input/aws_region_pue_wue_2022_2025.csv,PASS,SHA-256 matches the frozen package manifest.
+1,input exists: data/input/google_location_water_2022_2025.csv,PASS,Required package input is present.
+1,input hash: data/input/google_location_water_2022_2025.csv,PASS,SHA-256 matches the frozen package manifest.
+1,input exists: data/input/google_locations_aqueduct26.csv,PASS,Required package input is present.
+1,input hash: data/input/google_locations_aqueduct26.csv,PASS,SHA-256 matches the frozen package manifest.
+1,input exists: data/input/google_reported_source_mix.csv,PASS,Required package input is present.
+1,input hash: data/input/google_reported_source_mix.csv,PASS,SHA-256 matches the frozen package manifest.
+1,input exists: data/input/mesa_reclaimed_water_management.csv,PASS,Required package input is present.
+1,input hash: data/input/mesa_reclaimed_water_management.csv,PASS,SHA-256 matches the frozen package manifest.
+1,input exists: data/input/meta_site_water_electricity_2019_2024.csv,PASS,Required package input is present.
+1,input hash: data/input/meta_site_water_electricity_2019_2024.csv,PASS,SHA-256 matches the frozen package manifest.
+1,input exists: data/input/monthly_cooling_water_intensity.csv,PASS,Required package input is present.
+1,input hash: data/input/monthly_cooling_water_intensity.csv,PASS,SHA-256 matches the frozen package manifest.
+1,input exists: data/input/source_resolved_case_evidence.csv,PASS,Required package input is present.
+1,input hash: data/input/source_resolved_case_evidence.csv,PASS,SHA-256 matches the frozen package manifest.
+1,input exists: data/input/usgs/USGS_02336000_Atlanta_GA.csv,PASS,Required package input is present.
+1,input hash: data/input/usgs/USGS_02336000_Atlanta_GA.csv,PASS,SHA-256 matches the frozen package manifest.
+1,input exists: data/input/usgs/USGS_06610000_Council_Bluffs_IA.csv,PASS,Required package input is present.
+1,input hash: data/input/usgs/USGS_06610000_Council_Bluffs_IA.csv,PASS,SHA-256 matches the frozen package manifest.
+1,input exists: data/input/usgs/USGS_12117500_Seattle_WA.csv,PASS,Required package input is present.
+1,input hash: data/input/usgs/USGS_12117500_Seattle_WA.csv,PASS,SHA-256 matches the frozen package manifest.
+1,source IDs unique,PASS,35 stable source identifiers.
+1,source URLs populated,PASS,Every source has an HTTP(S) primary URL.
+1,source locators populated,PASS,"Every source has a page, table, station, dataset, or section locator."
+1,source field present: google_named_location_year.csv,PASS,"Source fields: source_id, aqueduct_source_id"
+1,source IDs registered: google_named_location_year.csv/source_id,PASS,"Referenced IDs: GOOGLE_ENV_2023, GOOGLE_ENV_2024, GOOGLE_ENV_2025, GOOGLE_ENV_2026"
+1,source IDs registered: google_named_location_year.csv/aqueduct_source_id,PASS,Referenced IDs: WRI_AQUEDUCT_4
+1,source URLs populated: google_named_location_year.csv,PASS,Row-level source URLs are present.
+1,source locators populated: google_named_location_year.csv,PASS,Row-level source locators are present.
+1,source field present: google_location_aqueduct_screen.csv,PASS,Source fields: source_id
+1,source IDs registered: google_location_aqueduct_screen.csv/source_id,PASS,Referenced IDs: WRI_AQUEDUCT_4
+1,source URLs populated: google_location_aqueduct_screen.csv,PASS,Row-level source URLs are present.
+1,source locators populated: google_location_aqueduct_screen.csv,PASS,Row-level source locators are present.
+1,source field present: google_reported_source_mix.csv,PASS,Source fields: source_id
+1,source IDs registered: google_reported_source_mix.csv/source_id,PASS,"Referenced IDs: GOOGLE_ENV_2023, GOOGLE_ENV_2024, GOOGLE_ENV_2026"
+1,source URLs populated: google_reported_source_mix.csv,PASS,Row-level source URLs are present.
+1,source locators populated: google_reported_source_mix.csv,PASS,Row-level source locators are present.
+1,source field present: meta_us_facility_year.csv,PASS,Source fields: source_id
+1,source IDs registered: meta_us_facility_year.csv/source_id,PASS,"Referenced IDs: META_EDI_2024, META_EDI_2025"
+1,source URLs populated: meta_us_facility_year.csv,PASS,Row-level source URLs are present.
+1,source locators populated: meta_us_facility_year.csv,PASS,Row-level source locators are present.
+1,source field present: aws_us_matched_regions.csv,PASS,Source fields: source_id
+1,source IDs registered: aws_us_matched_regions.csv/source_id,PASS,Referenced IDs: AWS_CLOUD_2026
+1,source URLs populated: aws_us_matched_regions.csv,PASS,Row-level source URLs are present.
+1,source locators populated: aws_us_matched_regions.csv,PASS,Row-level source locators are present.
+1,source field present: usgs_daily_flow_three_components.csv,PASS,Source fields: source_id
+1,source IDs registered: usgs_daily_flow_three_components.csv/source_id,PASS,"Referenced IDs: USGS_02336000, USGS_06610000, USGS_12117500"
+1,source URLs populated: usgs_daily_flow_three_components.csv,PASS,Row-level source URLs are present.
+1,source locators populated: usgs_daily_flow_three_components.csv,PASS,Row-level source locators are present.
+1,source field present: cooling_model_monthly.csv,PASS,"Source fields: method_source_id, weather_source_id"
+1,source IDs registered: cooling_model_monthly.csv/method_source_id,PASS,Referenced IDs: LEI_MASANET_2022
+1,source IDs registered: cooling_model_monthly.csv/weather_source_id,PASS,"Referenced IDs: ENERGYPLUS_TMY3_ATLANTA, ENERGYPLUS_TMY3_CHICAGO, ENERGYPLUS_TMY3_SEATTLE"
+1,source field present: mesa_daily_pathways_qc.csv,PASS,Source fields: source_id
+1,source IDs registered: mesa_daily_pathways_qc.csv/source_id,PASS,Referenced IDs: MESA_OPEN_DATA_2026
+1,source URLs populated: mesa_daily_pathways_qc.csv,PASS,Row-level source URLs are present.
+1,source locators populated: mesa_daily_pathways_qc.csv,PASS,Row-level source locators are present.
+1,source field present: source_resolved_case_evidence.csv,PASS,Source fields: source_id
+1,source IDs registered: source_resolved_case_evidence.csv/source_id,PASS,"Referenced IDs: EPA_QUINCY_REUSE, QUINCY_OPS_2020"
+1,source URLs populated: source_resolved_case_evidence.csv,PASS,Row-level source URLs are present.
+1,all referenced source IDs registered,PASS,18 identifiers used in datasets; all resolve in source register.
+1,unused working datasets removed,PASS,Redundant pass-through and broader unused analysis-ready panels are absent.
+1,unused source-tracing records removed,PASS,The unused Saint-Ghislain regulatory tracing records are not represented as manuscript evidence.
+2,Google U.S. scope,PASS,83 location-years across 26 U.S. locations.
+2,Google FY2025 withdrawal,PASS,"Independent sum equals 10,807.6 MG."
+2,Google FY2025 consumption,PASS,"Independent sum equals 8,446.9 MG."
+2,Google named-location balance,PASS,Maximum absolute source-reported balance residual: 0.030 MG.
+2,Google global FY2025 scope,PASS,Forty named locations; aggregate Other row excluded.
+2,Google global withdrawal,PASS,"Independent sum equals 12,541.5 MG."
+2,Google global consumption,PASS,"Independent sum equals 9,603.75 MG."
+2,Google public-release scope,PASS,"Release contains 83 U.S. location-years, 14 additional non-U.S. FY2025 rows, and four aggregate QA rows."
+2,Google FY2024 aggregate issue isolated,PASS,Published value is preserved exactly once.
+2,Google aggregate excluded from named analysis,PASS,No aggregate row enters named-location results.
+2,Google FY2024 aggregate source inconsistency,DOCUMENTED_NOTE,"Published withdrawal 828.9 MG and discharge 60.0 MG imply 768.9 MG, while the report prints 786.9 MG consumption. No silent correction was made."
+2,Douglas County reclaimed share,PASS,Recomputed share: 89.49%.
+2,Meta U.S. scope,PASS,70 facility-years across 15 U.S. facilities.
+2,Meta intensity equation,PASS,I = 1000 W/E reproduces every non-missing row.
+2,Meta consecutive-change scope,PASS,51 changes at 13 facilities.
+2,Meta denominator label,PASS,No total-electricity ratio is labeled WUE.
+2,AWS matched scope,PASS,Four U.S. regions report both PUE and WUE in FY2024 and FY2025.
+2,AWS PUE deltas,PASS,All PUE changes independently reproduced.
+2,AWS WUE deltas,PASS,All WUE changes independently reproduced.
+2,AWS U.S. WUE direction,PASS,All four matched U.S. regions have lower FY2025 WUE.
+2,AWS source version,DOCUMENTED_NOTE,FY2025 values are tied to the official webpage archived on 2026-09-05; retrieval date and SHA-256 are preserved.
+2,USGS combined scope,PASS,"Three stations with 10,958 daily observations each."
+2,USGS dates unique,PASS,No duplicate location-date keys.
+2,USGS flow positive,PASS,All screened daily-flow values are positive.
+2,USGS unit conversion,PASS,1 ft3/s = 0.028316846592 m3/s; ML/day conversion reproduced.
+2,daily pressure equation,PASS,"Pi = 100 sC/Q reproduces all 65,748 rows."
+2,Table 3 row count,PASS,Three source components by two cooling architectures.
+2,Table 4 record counts,PASS,Each descriptor uses the complete 30-water-year record.
+2,Table 4 baseline-scarcity identity,PASS,B = 1 - Q10/Qmean reproduced at full precision.
+2,Table 4 DAF identity,PASS,DAF = Qmean/Q10 reproduced at full precision.
+2,near-equal pair count,PASS,All cross-location pairs satisfying the declared <=3% rule are retained.
+2,near-equal pair rule,PASS,Every retained pair satisfies the prespecified volume rule.
+2,near-equal median,PASS,Median pressure ratio reproduced.
+2,near-equal maximum,PASS,Maximum documented ratio reproduced and treated as an endpoint.
+2,Mesa complete-day count,PASS,"2,676 days pass duplicate, sign, capacity and completeness gates."
+2,Mesa fraction bounds,PASS,All beneficial pathway fractions are between zero and one.
+2,Mesa mean beneficial fraction,PASS,Mean independently reproduced.
+3,six manuscript table datasets,PASS,Tables 1-6 each have a machine-readable source-linked CSV.
+3,table source linkage: manuscript_table_1_source_systems.csv,PASS,"Table includes source fields, source identifiers, or an explicit common-source basis."
+3,table source linkage: manuscript_table_2_cooling_architectures.csv,PASS,"Table includes source fields, source identifiers, or an explicit common-source basis."
+3,table source linkage: manuscript_table_3_source_component_results.csv,PASS,"Table includes source fields, source identifiers, or an explicit common-source basis."
+3,table source linkage: manuscript_table_4_flow_regime_descriptors.csv,PASS,"Table includes source fields, source identifiers, or an explicit common-source basis."
+3,table source linkage: manuscript_table_5_aws_pue_wue.csv,PASS,"Table includes source fields, source identifiers, or an explicit common-source basis."
+3,table source linkage: manuscript_table_6_managed_system_cases.csv,PASS,"Table includes source fields, source identifiers, or an explicit common-source basis."
+3,Table 3 source chain,PASS,Every Table 3 row links hydrology and cooling-model sources.
+3,Table 4 station traceability,PASS,Every Table 4 row resolves to a station page.
+3,Table 5 common source,PASS,Every operator-reported PUE/WUE value has the AWS source identifier.
+3,Table 6 observation-source colocation,PASS,Every case observation carries source IDs and human-readable locators in the same row.
+3,managed-system attribution boundary,PASS,Facility allocation and river-impact limits remain explicit.
+3,Aqueduct screen boundary,PASS,Aqueduct is never relabeled as facility impact or validation.
+3,Council Bluffs denominator boundary,PASS,River discharge is retained as source-family context only.
+3,source cases not mass-balanced,PASS,Incompatible Quincy quantities are not summed.
+3,all manuscript table rows mapped,PASS,All 35 rows across Tables 1-6 have a provenance record.
+3,manuscript source map resolves,PASS,All 26 table-source identifiers resolve in the source register.
+3,manuscript source locators populated,PASS,Every manuscript table row has one or more exact source locators.
+3,all manuscript figures mapped,PASS,Figures 1-9 each have an explicit evidence and source record.
+3,figure source map resolves,PASS,All 32 figure-source identifiers resolve in the source register.
+3,figure source locators populated,PASS,Every figure has human-readable source locators.
+3,no unused registered data sources,PASS,"Every source-register entry supports a released dataset, manuscript table, or manuscript figure; unused IDs: "
+3,manuscript data inventory complete,PASS,Figures 3-9 and Tables 1-6 are mapped to released datasets.
+3,dataset catalog covers all released CSVs,PASS,"Catalog includes every package input, analysis-ready table, result table, and figure-ready CSV exactly once."

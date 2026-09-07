@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "google_manuscript_location_years": 97,
+  "google_us_location_years": 83,
+  "google_global_fy2025_locations": 40,
+  "meta_us_facility_years": 70,
+  "aws_matched_us_regions": 4,
+  "usgs_daily_records": 32874,
+  "source_component_daily_architecture_records": 65748,
+  "mesa_complete_days": 2676
+}

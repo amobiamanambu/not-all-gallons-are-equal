@@ -1,0 +1,7 @@
+location_and_source_component,architecture_label,source_fraction,mean_consumption_ml_day,pressure_p50_pct,pressure_p95_pct,pressure_max_pct,source_basis,source_fraction_status
+Atlanta / Chattahoochee River,Climate-responsive hybrid,1.0,4.372,0.064,0.3733,0.5996,ATLANTA_DWM_OVERVIEW; USGS_02336000; LEI_MASANET_2022,standardized source-component assignment
+Atlanta / Chattahoochee River,Water-cooled evaporative,1.0,17.649,0.4272,0.787,1.0379,ATLANTA_DWM_OVERVIEW; USGS_02336000; LEI_MASANET_2022,standardized source-component assignment
+Seattle / Cedar River,Climate-responsive hybrid,0.7,0.673,0.012,0.2671,0.3762,SEATTLE_WSP_2019; USGS_12117500; LEI_MASANET_2022,upper bound of documented 60-70% utility share
+Seattle / Cedar River,Water-cooled evaporative,0.7,17.394,0.9691,1.8425,2.6629,SEATTLE_WSP_2019; USGS_12117500; LEI_MASANET_2022,upper bound of documented 60-70% utility share
+Council Bluffs / Missouri River family,Climate-responsive hybrid,1.0,2.5,0.0009,0.0109,0.0169,CB_WATER_WORKS_2024; USGS_06610000; LEI_MASANET_2022,standardized source-family assignment
+Council Bluffs / Missouri River family,Water-cooled evaporative,1.0,17.376,0.0218,0.0441,0.1369,CB_WATER_WORKS_2024; USGS_06610000; LEI_MASANET_2022,standardized source-family assignment

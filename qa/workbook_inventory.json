@@ -1,0 +1,127 @@
+[
+  {
+    "name": "README",
+    "rows": 9,
+    "columns": 2
+  },
+  {
+    "name": "Sources",
+    "rows": 35,
+    "columns": 12
+  },
+  {
+    "name": "Dataset_Catalog",
+    "rows": 50,
+    "columns": 6
+  },
+  {
+    "name": "Variable_Dictionary",
+    "rows": 749,
+    "columns": 5
+  },
+  {
+    "name": "Table_Source_Map",
+    "rows": 35,
+    "columns": 8
+  },
+  {
+    "name": "Figure_Source_Map",
+    "rows": 9,
+    "columns": 5
+  },
+  {
+    "name": "Manuscript_Data_Map",
+    "rows": 13,
+    "columns": 3
+  },
+  {
+    "name": "Known_Issues",
+    "rows": 2,
+    "columns": 7
+  },
+  {
+    "name": "Google_Water",
+    "rows": 97,
+    "columns": 36
+  },
+  {
+    "name": "Google_Aqueduct",
+    "rows": 26,
+    "columns": 26
+  },
+  {
+    "name": "Google_Source_Mix",
+    "rows": 18,
+    "columns": 12
+  },
+  {
+    "name": "Meta_US",
+    "rows": 70,
+    "columns": 17
+  },
+  {
+    "name": "AWS_US",
+    "rows": 4,
+    "columns": 18
+  },
+  {
+    "name": "USGS_Daily",
+    "rows": 32874,
+    "columns": 12
+  },
+  {
+    "name": "Cooling_Monthly",
+    "rows": 72,
+    "columns": 15
+  },
+  {
+    "name": "Pressure_Monthly",
+    "rows": 72,
+    "columns": 18
+  },
+  {
+    "name": "Mesa_QC",
+    "rows": 2676,
+    "columns": 22
+  },
+  {
+    "name": "Source_Cases",
+    "rows": 4,
+    "columns": 14
+  },
+  {
+    "name": "NearEqual_Pairs",
+    "rows": 282,
+    "columns": 14
+  },
+  {
+    "name": "Table_1",
+    "rows": 13,
+    "columns": 6
+  },
+  {
+    "name": "Table_2",
+    "rows": 5,
+    "columns": 7
+  },
+  {
+    "name": "Table_3",
+    "rows": 6,
+    "columns": 9
+  },
+  {
+    "name": "Table_4",
+    "rows": 3,
+    "columns": 9
+  },
+  {
+    "name": "Table_5",
+    "rows": 4,
+    "columns": 10
+  },
+  {
+    "name": "Table_6",
+    "rows": 4,
+    "columns": 7
+  }
+]

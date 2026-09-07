@@ -1,0 +1,10 @@
+{
+  "source_rows": 53954,
+  "source_columns": 19,
+  "duplicate_key_rows_removed": 1133,
+  "negative_measurement_cells": 64,
+  "over_capacity_measurement_cells": 164,
+  "expected_meter_records_per_day": 11,
+  "complete_days": 2676,
+  "source_sha256": "346a7e6d4f7da3fd50a6b243d44149cf5113eb6c46fc7f7bd6cad73a4f16d208"
+}

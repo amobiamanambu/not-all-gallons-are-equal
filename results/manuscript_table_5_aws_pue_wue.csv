@@ -1,0 +1,5 @@
+location,pue_2024,pue_2025,pue_change,wue_2024,wue_2025,wue_change,source_id,source_url,source_locator
+U.S. East (Northern Virginia),1.15,1.15,0.0,0.12,0.06,-0.06,AWS_CLOUD_2026,https://sustainability.aboutamazon.com/products-services/aws-cloud?waterType=true,regional PUE and WUE table archived 2026-09-05
+U.S. East (Ohio),1.13,1.12,-0.01,0.1,0.06,-0.04,AWS_CLOUD_2026,https://sustainability.aboutamazon.com/products-services/aws-cloud?waterType=true,regional PUE and WUE table archived 2026-09-05
+U.S. West (Northern California),1.18,1.18,0.0,0.51,0.39,-0.12,AWS_CLOUD_2026,https://sustainability.aboutamazon.com/products-services/aws-cloud?waterType=true,regional PUE and WUE table archived 2026-09-05
+U.S. West (Oregon),1.12,1.12,0.0,0.16,0.12,-0.04,AWS_CLOUD_2026,https://sustainability.aboutamazon.com/products-services/aws-cloud?waterType=true,regional PUE and WUE table archived 2026-09-05

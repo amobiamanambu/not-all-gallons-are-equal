@@ -1,0 +1,109 @@
+{
+  "google": {
+    "location_year_observations": 83,
+    "locations": 26,
+    "fy2025_withdrawal_mg": 10807.6,
+    "fy2025_consumption_mg": 8446.9,
+    "fy2025_withdrawal_consumed_fraction": 0.7815703764017913,
+    "fy2025_withdrawal_stress_spearman_rho": -0.2075628949800778,
+    "fy2025_withdrawal_stress_bootstrap_ci_95": [
+      -0.5824532268807766,
+      0.24875750731005902
+    ],
+    "continuing_locations_2024_2025": 23,
+    "locations_increasing_2024_2025": 20,
+    "fy2022_2025_net_reported_growth_mg": 5793.900000000001,
+    "continuing_location_share_of_growth": 0.7374134865979737,
+    "global_fy2025_named_locations": 40,
+    "global_fy2025_named_withdrawal_mg": 12541.5,
+    "global_fy2025_named_consumption_mg": 9603.75,
+    "douglas_county_fy2025_reclaimed_share": 0.8949160236041761
+  },
+  "source_timing": {
+    "daily_architecture_records": 65748,
+    "source_components": 3,
+    "maximum_pressure_pct": 2.6629417697534574,
+    "near_equal_volume_pairs": {
+      "eligibility_rule": "different locations; positive p95 pressure; 100*abs(C_i-C_j)/max(C_i,C_j) <= 3",
+      "eligible_pairs": 282,
+      "pressure_ratio_min": 1.3225846772418572,
+      "pressure_ratio_q25": 2.0216316668052174,
+      "pressure_ratio_median": 25.14284205413341,
+      "pressure_ratio_q75": 31.206721701953676,
+      "pressure_ratio_max": 87.59024731757852,
+      "maximum_pair": {
+        "first_location": "Council Bluffs",
+        "first_architecture": "Water-cooled evaporative",
+        "first_month": 6,
+        "first_consumption_ml_day": 17.81615391222984,
+        "first_pressure_p95_pct": 0.0252018762350568,
+        "second_location": "Seattle",
+        "second_architecture": "Water-cooled evaporative",
+        "second_month": 9,
+        "second_consumption_ml_day": 17.590738175367985,
+        "second_pressure_p95_pct": 2.2074385722956293,
+        "consumption_difference_pct": 1.265232316538976,
+        "pressure_ratio": 87.59024731757852,
+        "hydrology_source_ids": "USGS_06610000; USGS_12117500",
+        "model_source_id": "LEI_MASANET_2022"
+      },
+      "interpretive_status": "descriptive pair distribution; rows are not statistically independent"
+    },
+    "flow_regime_descriptors": [
+      {
+        "location_label": "Atlanta",
+        "baseline_scarcity_b": 0.5879589245641539,
+        "drought_amplification_factor": 2.4269425055310965
+      },
+      {
+        "location_label": "Council Bluffs",
+        "baseline_scarcity_b": 0.5581887973574039,
+        "drought_amplification_factor": 2.263410239529285
+      },
+      {
+        "location_label": "Seattle",
+        "baseline_scarcity_b": 0.5697169417049832,
+        "drought_amplification_factor": 2.3240515300845654
+      }
+    ]
+  },
+  "meta": {
+    "facility_year_observations": 70,
+    "facilities": 15,
+    "positive_intensity_min_l_per_total_kwh": 0.0257466529351184,
+    "positive_intensity_max_l_per_total_kwh": 2.311716753863001,
+    "consecutive_changes": 51,
+    "change_sites": 13,
+    "change_spearman_rho": 0.37746606334841626,
+    "site_cluster_bootstrap_ci_95": [
+      0.0543249013441258,
+      0.6375499455968856
+    ]
+  },
+  "aws": {
+    "matched_us_regions": 4,
+    "regions_with_lower_2025_wue": 4,
+    "wue_change_min": -0.12,
+    "wue_change_max": -0.04
+  },
+  "mesa": {
+    "complete_days": 2676,
+    "median_total_pathway_mgd": 33.69063020742085,
+    "median_beneficial_pathway_mgd": 30.22264173728783,
+    "mean_beneficial_fraction": 0.8776347171110533,
+    "source_id": "MESA_OPEN_DATA_2026"
+  },
+  "council_bluffs": {
+    "daily_records": 10958,
+    "withdrawal_ml_day": 18.11189901254137,
+    "estimated_consumption_ml_day": 13.959354140449314,
+    "withdrawal_to_river_flow_p50_pct": 0.022639019046648712,
+    "withdrawal_to_river_flow_p95_pct": 0.047454866847782884,
+    "consumption_to_river_flow_p50_pct": 0.0174485339193708,
+    "consumption_to_river_flow_p95_pct": 0.03657481148483494,
+    "operator_source_id": "GOOGLE_ENV_2026",
+    "hydrology_source_id": "USGS_06610000",
+    "source_chain_ids": "GOOGLE_IOWA_DC; CB_PLANNING_2012; CB_WATER_WORKS_2024; IOWA_DNR_MISSOURI_2022",
+    "interpretive_status": "source-family river context only; not facility impact, allocation, or available supply"
+  }
+}

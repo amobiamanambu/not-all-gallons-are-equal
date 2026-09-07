@@ -1,0 +1,3 @@
+issue_id,source_id,record,published_values,independent_check,treatment,status
+GOOGLE_FY2024_OTHER_CONSUMPTION,GOOGLE_ENV_2025,"Other data center locations, FY2024 aggregate",withdrawal 828.9 MG; discharge 60.0 MG; consumption 786.9 MG,withdrawal minus discharge = 768.9 MG,Preserve the published value; exclude the aggregate row from named-location consumption figures and headline calculations.,documented source inconsistency; no silent correction
+AWS_2025_ARCHIVE_VERSION,AWS_CLOUD_2026,FY2025 regional PUE/WUE values,17 regions displayed on archived official webpage,Four U.S. matched rows reproduced exactly from the archived official webpage table,Retain retrieval date and archive hash; do not silently refresh the webpage.,passed with source-version warning

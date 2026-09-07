@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "total_checks_and_notes": 124,
+  "passed": 122,
+  "documented_notes": 2,
+  "failed": 0,
+  "levels": {
+    "1": {
+      "PASS": 63
+    },
+    "2": {
+      "PASS": 35,
+      "DOCUMENTED_NOTE": 2
+    },
+    "3": {
+      "PASS": 24
+    }
+  }
+}

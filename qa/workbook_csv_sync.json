@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "checked_on": "2026-09-06",
+  "method": "Exact cell-by-cell comparison after normalizing human-readable Excel headers to CSV snake_case headers.",
+  "sheets": {
+    "Sources": {
+      "csv": "metadata/source_register.csv",
+      "rows": 35,
+      "match": true
+    },
+    "Dataset_Catalog": {
+      "csv": "metadata/dataset_catalog.csv",
+      "rows": 50,
+      "match": true
+    },
+    "Figure_Source_Map": {
+      "csv": "metadata/figure_source_map.csv",
+      "rows": 9,
+      "match": true
+    },
+    "Table_Source_Map": {
+      "csv": "metadata/manuscript_value_source_map.csv",
+      "rows": 35,
+      "match": true
+    }
+  }
+}

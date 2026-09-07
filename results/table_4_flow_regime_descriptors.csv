@@ -1,0 +1,4 @@
+location,location_label,source_id,source_url,daily_records,q_mean_ml_day,q_drought_p10_ml_day,baseline_scarcity_b,drought_amplification_factor,identity_error
+Atlanta_GA,Atlanta,USGS_02336000,https://waterdata.usgs.gov/monitoring-location/USGS-02336000/,10958,5842.695013533549,2407.4303368200194,0.5879589245641539,2.4269425055310965,4.440892098500626e-16
+Council_Bluffs_IA,Council Bluffs,USGS_06610000,https://waterdata.usgs.gov/monitoring-location/USGS-06610000/,10958,93031.74957849529,41102.46916521984,0.5581887973574039,2.263410239529285,0.0
+Seattle_WA,Seattle,USGS_12117500,https://waterdata.usgs.gov/monitoring-location/USGS-12117500/,10958,1705.7902920300508,733.97266366464,0.5697169417049832,2.3240515300845654,0.0

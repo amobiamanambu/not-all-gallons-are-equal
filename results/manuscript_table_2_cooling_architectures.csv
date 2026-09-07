@@ -1,0 +1,6 @@
+it_to_room_or_loop_transfer,heat_rejection,direct_on_site_water_boundary,treatment,analytical_role,model_source_id,value_status
+Room air or chilled-water loop,Airside economizer with evaporative or chiller backup,Climate-dependent; may be zero,Hourly model,Primary seasonal case,LEI_MASANET_2022,modeled
+Room air or chilled-water loop,Water-cooled chiller and evaporative tower,Evaporation and drift; positive blowdown retained,Hourly model,Wet-cooling comparison,LEI_MASANET_2022,modeled
+Room air or closed liquid loop,Air-cooled refrigeration or dry cooler,Zero routine heat-rejection water,Boundary only,Energy penalty not quantified,LEI_MASANET_2022,conceptual boundary
+Direct-to-chip liquid,Dry cooler,Zero routine heat-rejection water,Not parameterized,Dedicated data required,LEI_MASANET_2022,conceptual boundary
+Direct-to-chip liquid,Evaporative tower,Potentially positive and climate-dependent,Not parameterized,Dedicated data required,LEI_MASANET_2022,conceptual boundary

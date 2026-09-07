@@ -1,0 +1,14 @@
+manuscript_item,dataset_files,records_used
+Figure 3,figures/Figure_03/figure_03_google_panel.csv,83 U.S. location-years; FY2022 and FY2025 plotted
+Figure 4,figures/Figure_04/figure_04_google_panel.csv,"83 U.S. location-years, FY2022-FY2025"
+Figure 5,figures/Figure_05/figure_05_google_balance.csv; figures/Figure_05/figure_05_source_boundary.csv,26 FY2025 balances and documented source classes
+Figure 6,figures/Figure_06/figure_06_daily_pressure.csv; figures/Figure_06/figure_06_volume_pressure.csv,"65,748 daily scenario records and 72 monthly summaries"
+Figure 7,figures/Figure_07/figure_07_meta_panel.csv,70 U.S. facility-years; 51 consecutive changes calculated by figure code
+Figure 8,figures/Figure_08/figure_08_mesa_monthly.csv; figures/Figure_08/figure_08_system_scale.csv; figures/Figure_08/figure_08_council_bluffs.csv,"800 Mesa pathway-month rows, 5,407 scale observations, and 10,958 Council Bluffs flow days"
+Figure 9,figures/Figure_09/figure_09_google_accounting_context.csv,40 named FY2025 locations
+Table 1,results/manuscript_table_1_source_systems.csv,13 evidence-gated candidate locations
+Table 2,results/manuscript_table_2_cooling_architectures.csv,Five cooling-boundary cases
+Table 3,results/manuscript_table_3_source_component_results.csv,Three source components by two heat-rejection architectures
+Table 4,results/manuscript_table_4_flow_regime_descriptors.csv,Three USGS station records
+Table 5,results/manuscript_table_5_aws_pue_wue.csv,Four matched U.S. AWS regions
+Table 6,results/manuscript_table_6_managed_system_cases.csv,Four managed-system and source-portfolio cases

@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use these data or analyses, please cite the associated article."
+title: "Not All Gallons Are Equal: A Hydrological Framework for Interpreting Data Center Water Use"
+type: software
+authors:
+  - family-names: Amanambu
+    given-names: Amobichukwu C.
+  - family-names: Frame
+    given-names: Jonathan
+  - family-names: Otsiola
+    given-names: Adeyemi
+version: 1.0.0
+date-released: 2026-09-06

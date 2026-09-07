@@ -1,0 +1,4 @@
+scope,locations,withdrawal_mg,discharge_mg,estimated_consumption_mg,estimated_consumption_fraction,source_id,source_locator
+All named locations,40,12541.5,2937.75,9603.75,0.7657576844875015,GOOGLE_ENV_2026,printed p. 97
+U.S. named locations,26,10807.6,2360.7000000000003,8446.9,0.7815703764017913,GOOGLE_ENV_2026,printed p. 97
+Non-U.S. named locations,14,1733.8999999999999,577.05,1156.8500000000001,0.667195339985005,GOOGLE_ENV_2026,printed p. 97

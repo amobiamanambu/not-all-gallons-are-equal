@@ -1,0 +1,6 @@
+# Only required to rerun the archived hourly thermodynamic model rather than
+# using data/input/monthly_cooling_water_intensity.csv.
+numpy>=1.26,<3
+pandas>=2.2,<3
+scipy>=1.12,<2
+CoolProp>=6.6,<8

@@ -1,0 +1,4 @@
+location_and_source_component,usgs_station,daily_records,q_mean_ml_day,q_drought_p10_ml_day,baseline_scarcity_b,drought_amplification_factor,source_id,source_url
+Atlanta / Chattahoochee River,02336000,10958,5842.7,2407.4,0.588,2.427,USGS_02336000,https://waterdata.usgs.gov/monitoring-location/USGS-02336000/
+Seattle / Cedar River,12117500,10958,1705.8,734.0,0.57,2.324,USGS_12117500,https://waterdata.usgs.gov/monitoring-location/USGS-12117500/
+Council Bluffs / Missouri River family,06610000,10958,93031.7,41102.5,0.558,2.263,USGS_06610000,https://waterdata.usgs.gov/monitoring-location/USGS-06610000/
